@@ -10,6 +10,13 @@ body {
   padding: 26px;
 }
 
+img:hover {
+  transform: rotate(180deg);
+}
+img {
+  transition: transform 0.8s;
+}
+
 p {
   font-size: 17px;
   color: #333;
