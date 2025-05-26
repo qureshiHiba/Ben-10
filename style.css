@@ -9,13 +9,13 @@ body {
 .block {
   padding: 26px;
 }
-
-img:hover {
-  transform: rotate(180deg);
-}
 img {
   transition: transform 0.8s;
 }
+img:hover {
+  transform: rotate(180deg);
+}
+
 
 p {
   font-size: 17px;
